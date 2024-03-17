@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de temperature</title>
+    <link rel="stylesheet" href="../STYLE/05-convertisseur-de-temperature.css">
+</head>
+<body>
+    <div>
+        <h1>Convertisseur de temperature</h1>
+        <p>Appuyer sur la touche Entrer quand vous aurez fini la saisie de la temperature</p>
+        <label>Celsius</label><input type="text" onkeydown="convertirCelsius()" class="js-celsus" placeholder="veuillez donner la temperature en degré celsius">
+        <label>Kelvin</label><input type="text" onkeydown="convertirKelvin()" class="js-kelvin" placeholder="veuillez donner la temperature en degré kelvin">
+        <label>Fahrenheit</label><input type="text" onkeydown="convertirFahrenheit()" class="js-fahrenheit" placeholder="veuillez donner la temperature en Fahrenheit">
+
+    </div>
+    <script src="../SCRIPT/05-convertisseur-de-temperature.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de pourboire</title>
+    <link rel="stylesheet" href="../STYLE/01-calculateur-de-pourboire.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titre">Calculateur de pourboire</h1>
+        <p class="consigne">Veuillez entrer le montant de la facture et le pourcentage du pourboire afin d'obtenir le montant total</p>
+        <label for="facture">Prix de la facture</label>
+        <input type="text" class="js-prix-facture" placeholder="Prix de la facture">
+        <label for="pourboire">Pourcentage du pourboire</label>
+        <input type="text" class="js-prix-pourboire" placeholder="Pourcentage du pourboire">
+        <button onclick="calculPourboire()">Calculer</button>
+        <p>Total:</p><h2 class="js-prix-total">$00</h2>
+    </div>
+
+    <script src="../SCRIPT/01-calculateur-de-pourboire.js"></script>
+</body>
+</html>
